@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #0f172a;
+    color: white;
+}
+
+.container {
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.timer {
+    border: 1px solid white;
+    padding: 10px 20px;
+    font-size: 60px;
+    margin: 20px 0;
+}
+
+.buttons {
+    display: flex;
+    /* faz com que os botoes fiquem um ao lado do outro */
+    justify-content: center;
+    /* centraliza os botoes */
+    gap: 30px;
+    /* espaco entre os botoes */
+    flex-wrap: wrap;
+    /* quebra a linha */
+
+}
+
+button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
